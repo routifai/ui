@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.env.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Data directories
+data/
+dev_20240627/
+bird_benchmark/
+backup/
+mcp_version/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Project specific
+california_benchmark.py
+text2sql.py
+streamlit_app.py
+setup_db.py
+setup_bird_db.py
+add_test_data.py
+init_db.sql
+init_bird_db.sql
+add_test_data.sql
+setup_database.sql
+sample_questions.json
+requirements.txt 
